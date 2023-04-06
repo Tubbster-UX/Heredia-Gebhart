@@ -55,7 +55,7 @@ function App() {
         href="#nav"
       >
         <img
-          src="logo.svg"
+          src="logo.png"
           style={{ height: 150 }}
           alt=""
           loading="lazy"
