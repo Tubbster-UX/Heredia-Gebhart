@@ -65,8 +65,8 @@ function App() {
           <span style={{ fontStyle: "italic" }}>For President</span>
         </span>
       </a></header>
-      <main className='overflow-y-scroll'>
-      <header className='h-screen'>
+      <main>
+      <header className='h-min-screen'>
         {/* Background image */}
         <div
           className="overflow-hidden bg-no-repeat bg-top bg-cover"
@@ -94,9 +94,9 @@ function App() {
         {/* Background image */}
       </header>
 
-      <div className='h-screen
+      <div className='h-min-screen
     '>
-        <h1 className='text-center mt-5 pt-10 text-7xl'>Meet the Candidates</h1>
+        <h1 className='text-center py-10 text-7xl'>Meet the Candidates</h1>
 
         <div className="lg:pt-8 mx-auto lg:w-8/12 w-full">
           <div className="grid grid-cols-1 rounded-md shadow-lg sm:grid-cols-2">
