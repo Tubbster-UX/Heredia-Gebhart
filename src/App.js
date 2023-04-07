@@ -69,7 +69,7 @@ function App() {
           className="overflow-hidden bg-no-repeat bg-top bg-cover"
           style={{
             backgroundPosition: "50%",
-            backgroundImage: 'url("Brad-Lila.webp")',
+            backgroundImage: 'url("Brad-Lila.jpg")',
             height: "90vh"
           }}
         >
