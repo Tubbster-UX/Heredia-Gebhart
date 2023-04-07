@@ -69,7 +69,7 @@ function App() {
           className="overflow-hidden bg-no-repeat bg-top bg-cover"
           style={{
             backgroundPosition: "50%",
-            backgroundImage: 'url("Brad-Lila.gif")',
+            backgroundImage: 'url("Brad-Lila.webp")',
             height: "90vh"
           }}
         >
@@ -98,14 +98,14 @@ function App() {
           <div className="grid grid-cols-1 rounded-md shadow-lg sm:grid-cols-2">
             <button style={Bstyles} onClick={handleBClick}>
               <div className="border-bottom border-right flex flex-col items-center justify-center p-4 pb-6">
-                <img className="h-auto rounded-3xl w-36" src="Brad.gif" alt="Brad Heredia" />
+                <img className="h-auto rounded-3xl w-36" src="Brad.webp" alt="Brad Heredia" />
                 <p className="font-medium leading-5 mt-4 text-white text-xl">Brad Heredia</p>
                 <p className="font-medium leading-5 mt-4 text-white text-xl">President</p>
               </div>
             </button>
             <button style={Lstyles} onClick={handleLClick}>
               <div className="flex flex-col h-full items-center justify-center p-4 pb-6">
-                <img className="h-auto rounded-3xl w-36" src="Lila.gif" alt="Lila Gebhart" />
+                <img className="h-auto rounded-3xl w-36" src="Lila.webp" alt="Lila Gebhart" />
                 <p className="font-medium leading-5 mt-4 text-white text-xl">Lila Gebhart</p>
                 <p className="font-medium leading-5 mt-4 text-white text-xl">Vice President</p>
               </div>
