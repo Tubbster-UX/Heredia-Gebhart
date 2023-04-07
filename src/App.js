@@ -66,10 +66,9 @@ function App() {
       <header className='h-min-screen'>
         {/* Background image */}
         <div
-          className="overflow-hidden bg-no-repeat bg-top bg-cover"
+          className="overflow-hidden bg-no-repeat bg-top bg-cover bg-mobile-hero lg:bg-desktop-hero"
           style={{
             backgroundPosition: "50%",
-            backgroundImage: 'url("Brad-Lila.jpg")',
             height: "90vh"
           }}
         >

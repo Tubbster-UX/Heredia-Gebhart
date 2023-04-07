@@ -4,6 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    extend: {
+      backgroundImage: {
+        'mobile-hero': "url('/public/Brad-Lila.jpg')",
+        'desktop-hero': "url('/public/Brad-Lila.webp')",
+      }
+    },
     colors: {
       'rust': {
         '50': '#fff7ed',
@@ -72,7 +78,6 @@ module.exports = {
 },
 
     },
-    extend: {},
   },
   plugins: [],
 }
