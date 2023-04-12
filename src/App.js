@@ -133,8 +133,8 @@ function App() {
         {/* 👇️ show component on click */}
         {isLShown && <Lila />}
       </div>
-      <div className='bg-stark-200 pb-20'><h1 className='text-center mb-10 pt-5 text-7xl'>Our Message</h1>
-        <p className='px-8 lg:px-36 text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in blandit risus. Ut bibendum dignissim auctor. Nullam accumsan egestas pellentesque. Quisque tincidunt augue non tortor semper tristique. Sed non tellus scelerisque, gravida leo finibus, viverra enim. Ut eu iaculis est. Donec nec pellentesque leo. Suspendisse eu lacinia neque. Nullam tristique posuere justo, vel aliquam nunc iaculis non.
+      <div className='bg-stark-200/70 pb-10'><h1 className='text-center lg:pl-10 lg:my-auto pt-5 text-7xl'>Our Message</h1>
+        <p className='px-8 my-auto mt-10 lg:px-36 text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in blandit risus. Ut bibendum dignissim auctor. Nullam accumsan egestas pellentesque. Quisque tincidunt augue non tortor semper tristique. Sed non tellus scelerisque, gravida leo finibus, viverra enim. Ut eu iaculis est. Donec nec pellentesque leo. Suspendisse eu lacinia neque. Nullam tristique posuere justo, vel aliquam nunc iaculis non.
 
           Ut sed urna in urna tempor venenatis sed eget risus. Sed consectetur tortor auctor tellus semper tincidunt sit amet id neque. Phasellus ac consequat arcu. Curabitur diam nunc, dapibus vel erat id, feugiat condimentum lectus. Vivamus suscipit, neque sit amet scelerisque eleifend, lorem quam viverra metus, sit amet commodo justo metus in justo. Nullam auctor viverra est, ac pharetra est convallis eu. Fusce condimentum accumsan turpis, vitae suscipit ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Proin ut eleifend arcu. Vestibulum dapibus eleifend enim. Integer nec gravida dolor, non lobortis erat. Cras pretium faucibus pellentesque.
 
@@ -145,8 +145,8 @@ function App() {
           Sed pharetra at tortor a fermentum. Nam sodales vestibulum cursus. Aliquam erat volutpat. Fusce tincidunt turpis arcu, at finibus tortor rutrum sit amet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam vitae massa nisi. Maecenas eget ornare nisi, vel congue magna. Cras tempus tempor interdum. Duis ac aliquam nisi. Maecenas vestibulum, ex vel efficitur vestibulum, leo libero blandit leo, ut rutrum augue urna faucibus diam. Nulla et neque blandit turpis varius imperdiet eget in tortor. Cras placerat fermentum nisl a rutrum. In euismod leo eu dui pharetra, eu condimentum mi sagittis. Cras nec commodo ex. Nullam diam leo, cursus congue congue in, congue commodo nunc.
 
           Morbi sit amet laoreet nisi, eget euismod libero. In felis nulla, venenatis vitae volutpat quis, feugiat nec neque. Nullam maximus felis ut lorem euismod rutrum. Quisque semper, erat tincidunt fermentum lobortis, tortor quam pulvinar nisi, eget elementum risus sapien id dolor. In odio erat, sodales pulvinar velit vel, vulputate iaculis turpis. Ut sed turpis odio. Vestibulum maximus arcu est, et laoreet orci ultrices quis. Pellentesque id placerat felis, eget placerat nunc. Pellentesque sollicitudin, orci vitae congue accumsan, mi tortor cursus diam, ac rhoncus orci purus sit amet tortor. Suspendisse.</p></div>
-          <div className='bg-stark-100 pb-20'><h1 className='text-center mb-10 pt-5 text-7xl'>Our Executive Order</h1>
-        <p className='px-8 lg:px-36 text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in blandit risus. Ut bibendum dignissim auctor. Nullam accumsan egestas pellentesque. Quisque tincidunt augue non tortor semper tristique. Sed non tellus scelerisque, gravida leo finibus, viverra enim. Ut eu iaculis est. Donec nec pellentesque leo. Suspendisse eu lacinia neque. Nullam tristique posuere justo, vel aliquam nunc iaculis non.
+          <div className='bg-stark-100 pb-10'><h1 className='text-center lg:pl-10 lg:my-auto pt-5 text-7xl'>Our Executive Order</h1>
+        <p className='px-8 my-auto mt-10 lg:px-36 text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in blandit risus. Ut bibendum dignissim auctor. Nullam accumsan egestas pellentesque. Quisque tincidunt augue non tortor semper tristique. Sed non tellus scelerisque, gravida leo finibus, viverra enim. Ut eu iaculis est. Donec nec pellentesque leo. Suspendisse eu lacinia neque. Nullam tristique posuere justo, vel aliquam nunc iaculis non.
 
           Ut sed urna in urna tempor venenatis sed eget risus. Sed consectetur tortor auctor tellus semper tincidunt sit amet id neque. Phasellus ac consequat arcu. Curabitur diam nunc, dapibus vel erat id, feugiat condimentum lectus. Vivamus suscipit, neque sit amet scelerisque eleifend, lorem quam viverra metus, sit amet commodo justo metus in justo. Nullam auctor viverra est, ac pharetra est convallis eu. Fusce condimentum accumsan turpis, vitae suscipit ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Proin ut eleifend arcu. Vestibulum dapibus eleifend enim. Integer nec gravida dolor, non lobortis erat. Cras pretium faucibus pellentesque.
 
@@ -157,6 +157,13 @@ function App() {
           Sed pharetra at tortor a fermentum. Nam sodales vestibulum cursus. Aliquam erat volutpat. Fusce tincidunt turpis arcu, at finibus tortor rutrum sit amet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam vitae massa nisi. Maecenas eget ornare nisi, vel congue magna. Cras tempus tempor interdum. Duis ac aliquam nisi. Maecenas vestibulum, ex vel efficitur vestibulum, leo libero blandit leo, ut rutrum augue urna faucibus diam. Nulla et neque blandit turpis varius imperdiet eget in tortor. Cras placerat fermentum nisl a rutrum. In euismod leo eu dui pharetra, eu condimentum mi sagittis. Cras nec commodo ex. Nullam diam leo, cursus congue congue in, congue commodo nunc.
 
           Morbi sit amet laoreet nisi, eget euismod libero. In felis nulla, venenatis vitae volutpat quis, feugiat nec neque. Nullam maximus felis ut lorem euismod rutrum. Quisque semper, erat tincidunt fermentum lobortis, tortor quam pulvinar nisi, eget elementum risus sapien id dolor. In odio erat, sodales pulvinar velit vel, vulputate iaculis turpis. Ut sed turpis odio. Vestibulum maximus arcu est, et laoreet orci ultrices quis. Pellentesque id placerat felis, eget placerat nunc. Pellentesque sollicitudin, orci vitae congue accumsan, mi tortor cursus diam, ac rhoncus orci purus sit amet tortor. Suspendisse.</p></div>
+          <div className='bg-stark-200/70 pb-20'>
+          <h1 className='text-center pt-5 mb-7 text-7xl'>Our Announment Video</h1>
+          <video
+    className="lg:w-[50vw] m-auto" controls
+    src="https://media.graphassets.com/7uSKnv3S0ysm81cctJ53"
+ ></video>
+</div>
           </main>
     </>
   );
