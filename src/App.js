@@ -64,10 +64,9 @@ function App() {
       </a></header>
       <main>
       <header class="home-hero" role="banner">
-  <video autoPlay className='hidden md:block z-5 lg:block' id="heroVideo" loop muted poster="https://media.graphassets.com/X4lSfHnBQeGwpbs7D5MH">
+  <video autoPlay className='' id="heroVideo" loop muted poster="https://media.graphassets.com/X4lSfHnBQeGwpbs7D5MH">
 	<source src="https://media.graphassets.com/SKaiwvtpToiKeR9q18nc" type="video/mp4" />
   </video>
-  <img alt="poster image mobile" class="poster img-fluid mx-auto block md:hidden lg:hidden" src="https://media.graphassets.com/X4lSfHnBQeGwpbs7D5MH" />
 </header>
       <div className='bg-stark-100 pb-10 h-min-screen
     '>
