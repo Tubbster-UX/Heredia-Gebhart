@@ -135,7 +135,7 @@ function App() {
       </div>
       <div className='bg-stark-200/70 pb-10'><h1 className='text-center lg:pl-10 lg:my-auto pt-5 text-7xl'>Our Message</h1>
         <p className='px-8 my-auto text-center mt-10 lg:px-36 text-xl'>          <video
-    className="lg:w-[50vw] m-auto" controls
+    className="lg:w-[50vw] m-auto" poster='https://media.graphassets.com/cJb616vSQir0Gjjq8wyw' controls
     src="https://media.graphassets.com/0YeQXTqEQUi59hlHpiV2"
  ></video></p></div>
           <div className='bg-stark-100 pb-10'><h1 className='text-center lg:pl-10 lg:my-auto pt-5 text-7xl'>Our Executive Order</h1>
@@ -143,7 +143,7 @@ function App() {
           <div className='bg-stark-200/70 pb-20'>
           <h1 className='text-center pt-5 mb-7 text-7xl'>Our Announment Video</h1>
           <video
-    className="lg:w-[50vw] m-auto" controls
+    className="lg:w-[50vw] m-auto" poster='https://media.graphassets.com/ZIFw6m2kS3qdq1z2i2lE' controls
     src="https://media.graphassets.com/7uSKnv3S0ysm81cctJ53"
  ></video>
 </div>
