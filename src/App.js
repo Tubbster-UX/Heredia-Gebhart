@@ -46,7 +46,7 @@ function App() {
   const Lstyles = isLShown ? LactiveStyles : LinactiveStyles;
 
   return (
-    <><header class="w-full text-center p-4 bg-space-800 text-cape-cod-100">
+    <><header className="w-full text-center p-4 bg-space-800 text-cape-cod-100">
       <a
         className="flex items-center"
         href="#nav"
@@ -97,14 +97,14 @@ function App() {
           <div className="grid grid-cols-1 rounded-md shadow-lg sm:grid-cols-2">
             <button style={Bstyles} onClick={handleBClick}>
               <div className="border-bottom border-right flex flex-col items-center justify-center p-4 pb-6">
-                <img className="h-auto rounded-3xl w-36" src="Brad.webp" alt="Brad Heredia" />
+                <img className="h-auto rounded-3xl w-36" src="https://media.graphassets.com/QGfslDFVS1O8hXio3s4g" alt="Brad Heredia" />
                 <p className="font-medium leading-5 mt-4 text-white text-xl">Brad Heredia</p>
                 <p className="font-medium leading-5 mt-4 text-white text-xl">President</p>
               </div>
             </button>
             <button style={Lstyles} onClick={handleLClick}>
               <div className="flex flex-col h-full items-center justify-center p-4 pb-6">
-                <img className="h-auto rounded-3xl w-36" src="Lila.webp" alt="Lila Gebhart" />
+                <img className="h-auto rounded-3xl w-36" src="https://media.graphassets.com/OuLX4aBRROrLhfxIb7XA" alt="Lila Gebhart" />
                 <p className="font-medium leading-5 mt-4 text-white text-xl">Lila Gebhart</p>
                 <p className="font-medium leading-5 mt-4 text-white text-xl">Vice President</p>
               </div>
@@ -133,7 +133,9 @@ function App() {
         {/* 👇️ show component on click */}
         {isLShown && <Lila />}
       </div>
-      <div className='bg-stark-200/70 pb-10'><h1 className='text-center lg:pl-10 lg:my-auto pt-5 text-7xl'>Our Message</h1>
+      <div className='bg-stark-100 pb-10'><h1 className='text-center lg:pl-10 lg:my-auto pt-5 text-7xl'>Our Message</h1>
+        <p className='px-8 my-auto text-center mt-10 lg:px-36 text-xl'>Coming Soon!</p></div>
+      <div className='bg-stark-200/70 pb-10'><h1 className='text-center lg:pl-10 lg:my-auto pt-5 text-7xl'>Our Message Sneak Peek</h1>
         <p className='px-8 my-auto text-center mt-10 lg:px-36 text-xl'>          <video
     className="lg:w-[50vw] m-auto" poster='https://media.graphassets.com/cJb616vSQir0Gjjq8wyw' controls
     src="https://media.graphassets.com/0YeQXTqEQUi59hlHpiV2"

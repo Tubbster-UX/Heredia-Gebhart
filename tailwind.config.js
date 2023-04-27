@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'mobile-hero': "url('/public/Brad-Lila.jpg')",
-        'desktop-hero': "url('/public/Brad-Lila.webp')",
+        'mobile-hero': "url('https://media.graphassets.com/X4lSfHnBQeGwpbs7D5MH')",
+        'desktop-hero': "url('https://media.graphassets.com/sBYmNSVQX28aliEWYT9Y')",
       }
     },
     colors: {
