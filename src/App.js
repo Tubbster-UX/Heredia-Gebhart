@@ -63,32 +63,12 @@ function App() {
         </span>
       </a></header>
       <main>
-      <header className='h-min-screen'>
-        {/* Background image */}
-        <div
-          className="overflow-hidden bg-no-repeat bg-top bg-cover bg-mobile-hero lg:bg-desktop-hero"
-          style={{
-            backgroundPosition: "50%",
-            height: "90vh"
-          }}
-        >
-          <div
-            className=" top-0 right-0 bottom-0 left-0 w-full h-full"
-          >
-            <div className="flex justify-center items-center h-full" style={{backgroundColor: "rgba(0, 0, 0, 0.4)"}}>
-              <div className="text-center text-white px-6 md:px-12">
-                <h1
-                  className="text-5xl mt-0 mb-6 text-cape-cod-50 transition-opacity opacity-100"
-                  style={{ fontSize: "8vw", textTransform: "uppercase" }}
-                >
-                  Heredia/Gebhart
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Background image */}
-      </header>
+      <header class="home-hero" role="banner">
+  <video autoPlay className='hidden md:block z-5 lg:block' id="heroVideo" loop muted poster="https://media.graphassets.com/X4lSfHnBQeGwpbs7D5MH">
+	<source src="https://media.graphassets.com/SKaiwvtpToiKeR9q18nc" type="video/mp4" />
+  </video>
+  <img alt="poster image mobile" class="poster img-fluid mx-auto block md:hidden lg:hidden" src="https://media.graphassets.com/X4lSfHnBQeGwpbs7D5MH" />
+</header>
       <div className='bg-stark-100 pb-10 h-min-screen
     '>
         <h1 className='text-center py-10 text-7xl'>Meet the Candidates</h1>
