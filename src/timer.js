@@ -3,8 +3,7 @@ import React, { useEffect,useState } from 'react'
 const Timer = () => {
 
     const calculateTimeLeft = () => {
-        let year = new Date().getFullYear();
-        const difference = +new Date(`${year}-04-29T09:30:00-08:00`) - +new Date();
+        const difference = +new Date(`2023-04-29T09:30:59-07:00`) - +new Date();
         let timeLeft = {};
     
         if (difference > 0) {
@@ -20,7 +19,6 @@ const Timer = () => {
       };
     
       const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-      const [year] = useState(new Date().getFullYear());
     
       useEffect(() => {
         setTimeout(() => {
