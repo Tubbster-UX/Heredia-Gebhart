@@ -41,8 +41,10 @@ const Timer = () => {
       });
       return (
         <div>
-          <h1>Message Drops in</h1>
-          {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+          {timerComponents.length ? timerComponents : <span><video
+    className="lg:w-[50vw] m-auto" poster='https://media.graphassets.com/cJb616vSQir0Gjjq8wyw' controls
+    src="https://media.graphassets.com/aWpGOGRMTMe2RNz58k51"
+ ></video></span>}
         </div>
       );
 };
