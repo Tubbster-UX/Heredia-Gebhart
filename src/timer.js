@@ -42,7 +42,7 @@ const Timer = () => {
       return (
         <div>
           {timerComponents.length ? timerComponents : <span><video
-    className="lg:w-[50vw] m-auto" poster='https://media.graphassets.com/cJb616vSQir0Gjjq8wyw' controls
+    className="lg:w-[50vw] m-auto" poster='https://media.graphassets.com/ICeMaJTvTVuSr6M7qeRV' controls
     src="https://media.graphassets.com/aWpGOGRMTMe2RNz58k51"
  ></video></span>}
         </div>
