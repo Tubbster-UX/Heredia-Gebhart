@@ -1,5 +1,6 @@
 import './App.css';
 import { useState } from 'react';
+import Timer from './timer';
 
 function App() {
   const [isLShown, setIsLilaShown] = useState(false);
@@ -46,7 +47,7 @@ function App() {
   const Lstyles = isLShown ? LactiveStyles : LinactiveStyles;
 
   return (
-    <><header class="w-full text-center p-4 bg-space-800 text-cape-cod-100">
+    <><header className="w-full text-center p-4 bg-space-800 text-cape-cod-100">
       <a
         className="flex items-center"
         href="#nav"
@@ -63,32 +64,11 @@ function App() {
         </span>
       </a></header>
       <main>
-      <header className='h-min-screen'>
-        {/* Background image */}
-        <div
-          className="overflow-hidden bg-no-repeat bg-top bg-cover bg-mobile-hero lg:bg-desktop-hero"
-          style={{
-            backgroundPosition: "50%",
-            height: "90vh"
-          }}
-        >
-          <div
-            className=" top-0 right-0 bottom-0 left-0 w-full h-full"
-          >
-            <div className="flex justify-center items-center h-full" style={{backgroundColor: "rgba(0, 0, 0, 0.4)"}}>
-              <div className="text-center text-white px-6 md:px-12">
-                <h1
-                  className="text-5xl mt-0 mb-6 text-cape-cod-50 transition-opacity opacity-100"
-                  style={{ fontSize: "8vw", textTransform: "uppercase" }}
-                >
-                  Heredia/Gebhart
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Background image */}
-      </header>
+      <header class="home-hero" role="banner">
+  <video autoPlay className='' id="heroVideo" loop muted poster="https://media.graphassets.com/X4lSfHnBQeGwpbs7D5MH">
+	<source src="https://media.graphassets.com/SKaiwvtpToiKeR9q18nc" type="video/mp4" />
+  </video>
+</header>
       <div className='bg-stark-100 pb-10 h-min-screen
     '>
         <h1 className='text-center py-10 text-7xl'>Meet the Candidates</h1>
@@ -97,14 +77,14 @@ function App() {
           <div className="grid grid-cols-1 rounded-md shadow-lg sm:grid-cols-2">
             <button style={Bstyles} onClick={handleBClick}>
               <div className="border-bottom border-right flex flex-col items-center justify-center p-4 pb-6">
-                <img className="h-auto rounded-3xl w-36" src="Brad.webp" alt="Brad Heredia" />
+                <img className="h-auto rounded-3xl w-36" src="https://media.graphassets.com/QGfslDFVS1O8hXio3s4g" alt="Brad Heredia" />
                 <p className="font-medium leading-5 mt-4 text-white text-xl">Brad Heredia</p>
                 <p className="font-medium leading-5 mt-4 text-white text-xl">President</p>
               </div>
             </button>
             <button style={Lstyles} onClick={handleLClick}>
               <div className="flex flex-col h-full items-center justify-center p-4 pb-6">
-                <img className="h-auto rounded-3xl w-36" src="Lila.webp" alt="Lila Gebhart" />
+                <img className="h-auto rounded-3xl w-36" src="https://media.graphassets.com/OuLX4aBRROrLhfxIb7XA" alt="Lila Gebhart" />
                 <p className="font-medium leading-5 mt-4 text-white text-xl">Lila Gebhart</p>
                 <p className="font-medium leading-5 mt-4 text-white text-xl">Vice President</p>
               </div>
@@ -133,9 +113,11 @@ function App() {
         {/* 👇️ show component on click */}
         {isLShown && <Lila />}
       </div>
-      <div className='bg-stark-200/70 pb-10'><h1 className='text-center lg:pl-10 lg:my-auto pt-5 text-7xl'>Our Message</h1>
+      <div className='bg-stark-100 pb-10'><h1 className='text-center lg:pl-10 lg:my-auto pt-5 text-7xl'>Our Message</h1>
+        <p className='px-8 my-auto text-center mt-10 lg:px-36 text-xl'><Timer></Timer></p></div>
+      <div className='bg-stark-200/70 pb-10'><h1 className='text-center lg:pl-10 lg:my-auto pt-5 text-7xl'>Our Message Sneak Peek</h1>
         <p className='px-8 my-auto text-center mt-10 lg:px-36 text-xl'>          <video
-    className="lg:w-[50vw] m-auto" controls
+    className="lg:w-[50vw] m-auto" poster='https://media.graphassets.com/cJb616vSQir0Gjjq8wyw' controls
     src="https://media.graphassets.com/0YeQXTqEQUi59hlHpiV2"
  ></video></p></div>
           <div className='bg-stark-100 pb-10'><h1 className='text-center lg:pl-10 lg:my-auto pt-5 text-7xl'>Our Executive Order</h1>
@@ -143,7 +125,7 @@ function App() {
           <div className='bg-stark-200/70 pb-20'>
           <h1 className='text-center pt-5 mb-7 text-7xl'>Our Announment Video</h1>
           <video
-    className="lg:w-[50vw] m-auto" controls
+    className="lg:w-[50vw] m-auto" poster='https://media.graphassets.com/ZIFw6m2kS3qdq1z2i2lE' controls
     src="https://media.graphassets.com/7uSKnv3S0ysm81cctJ53"
  ></video>
 </div>
