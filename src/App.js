@@ -65,7 +65,7 @@ function App() {
       </a></header>
       <main>
       <header class="home-hero" role="banner">
-  <video autoPlay className='' id="heroVideo" loop muted poster="https://media.graphassets.com/X4lSfHnBQeGwpbs7D5MH">
+  <video autoPlay className='' id="heroVideo" playsInline loop muted poster="https://media.graphassets.com/X4lSfHnBQeGwpbs7D5MH">
 	<source src="https://media.graphassets.com/SKaiwvtpToiKeR9q18nc" type="video/mp4" />
   </video>
 </header>
