@@ -121,7 +121,7 @@ function App() {
     src="https://media.graphassets.com/0YeQXTqEQUi59hlHpiV2"
  ></video></p></div>
           <div className='bg-stark-100 pb-10'><h1 className='text-center lg:pl-10 lg:my-auto pt-5 text-7xl'>Our Executive Order</h1>
-        <p className='px-8 my-auto text-center mt-10 lg:px-36 text-xl'>Coming Soon!</p></div>
+        <p className='px-8 my-auto text-center mt-10 lg:px-36 text-2xl'>Our Executive Order for the Heredia/Gebhart ticket is called the <br></br><bold className='font-black'>Teenpact State-Class Elected Officials Handbook</bold><br></br> Each state class elected governor will, upon their swearing in on Thursday of their State Class, be presented with an Elected Officials Handbook. The handbook will feature a letter from the national President and Vice-President and from the Representatives and Senators, expressing their support and providing valuable insights and inspiration. The handbook will also provide a detailed explanation of TeenPact's mission statement, serving as a reminder of its core principles and values. This section aims to inspire elected governors in their representation of themselves, TeenPact, and Christ. Each class-specific elected governor shall have the opportunity to contribute by writing a short letter to be included in the following year's handbook, which will be given to their successor. This allows the governor to share their personal experiences, wisdom, and encouragement, both fostering continuity and aiding in peer leadership. Through this executive order, the Heredia/Gebhart ticket seeks to promote unity among state-class elected officials, while providing them with valuable guidance on leading their peers and representing Christ well.</p></div>
           <div className='bg-stark-200/70 pb-20'>
           <h1 className='text-center pt-5 mb-7 text-7xl'>Our Announment Video</h1>
           <video
@@ -137,7 +137,7 @@ function App() {
 function Lila() {
   return (
     <div>
-      <p className='px-8 text-center lg:px-36 text-xl'>
+      <p className='px-8 text-center lg:px-36 text-2xl'>
       Hi there—It’s Lila here :))))
 
 I’m so beyond excited to get to know each and every one of you and for y’all to get to know me. Truly meeting people is one of the most amazing things about running a campaign it’s like I get a small taste of heaven :))
@@ -154,7 +154,7 @@ Thanks for sticking around-love you all :)
 function Brad() {
   return (
     <div>
-      <p className='px-8 text center lg:px-36 text-xl'>hey hey, what is going on everyone?!? my name is Brad Heredia, i’m so blessed to get to run for president this year!
+      <p className='px-8 text center lg:px-36 text-2xl'>hey hey, what is going on everyone?!? my name is Brad Heredia, i’m so blessed to get to run for president this year!
 
 i am from the wonderful little town of maryville missouri, although kansas city is usually where i call home. City strolls, sports, people, electric guitar, and talking about God are some things i absolutely love.
 
